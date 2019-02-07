@@ -1,0 +1,21 @@
+{
+  "name": "jest-typescript",
+  "version": "1.0.0",
+  "description": "Jest typescript example",
+  "main": "app.js",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^3.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "*",
+    "@babel/preset-env": "*",
+    "@babel/preset-typescript": "*",
+    "@types/jest": "^24.0.0",
+    "babel-jest": "*",
+    "jest": "*"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
